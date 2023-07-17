@@ -1,0 +1,36 @@
+.places {
+  display: grid;
+  grid-template-rows: 80px 1fr 1fr 1fr;
+  grid-template-columns: 50% 50%;
+  /* place-items: center; */
+  /* justify-items: center; */
+}
+
+.places h1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 50px;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  /* margin: 20px; */
+  /* border: 1px solid red; */
+  /* color: blue; */
+}
+
+.places article {
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #FF5A5F;
+  border-radius: 4px;
+  align-self: center;
+  justify-self: center;
+}
+
+article > h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0;
+}
